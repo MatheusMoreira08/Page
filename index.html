@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/class.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -13,26 +17,43 @@
     <title>Landing Page</title>
 </head>
 
-<body>
+<body class="main-bg">
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#">LOGO</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#">intro</a></li>
+                    <li><a href="#">top 3</a></li>
+                    <li><a href="#">galerry</a></li>
+                    <li><a href="#">work</a></li>
+                    <li><a href="#">contact</a></li>
 
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maxime unde similique, quo perspiciatis
-                dolores qui molestias vitae voluptatum voluptatem explicabo numquam. Officia dolorem provident harum
-                sapiente maxime quas quae!</p>
+                </ul>
+            </nav>
+        </div>
+    </aside>
 
+    <div class="menu-spacing"></div>
+
+    <section class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Discover the Power of CodeGenX</h2>
+                <p>CodeGenX is a revolutionary AI tool that speeds up your development process by writing clean,
+                    scalable code
+                    for you. Join thousands of developers building smarter and faster.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/java-script-frameworks_.svg" alt="Ilustração representando frameworks JavaScript como React, Angular e Vue">
+            </div>
         </div>
     </section>
 
     <section class="white-bg section">
-        <div class="main-content">
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maxime unde similique, quo perspiciatis
-                dolores qui molestias vitae voluptatum voluptatem explicabo numquam. Officia dolorem provident harum
-                sapiente maxime quas quae!</p>
 
-        </div>
     </section>
 </body>
 
