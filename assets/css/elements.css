@@ -99,7 +99,14 @@ table th {
 }
 
 .full-width {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.full-message {
+  flex: 1 1 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
